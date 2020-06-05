@@ -41,7 +41,7 @@ export default function transformTable<T>(
       title: oldColumns[index].title, // 第一列
       ...Object.entries(oldData || []) // 遍历键值对
         .map((item, i) => {
-          // console.log(item); // ["0", {"1" : {0: "string", title: "质检报告编号"}}]
+          // console.log(item); // ["0", {"1" : {0: "value", title: "title"}}]
           let value = column.dataIndex && item[1] ? (item[1] as any)[column.dataIndex as string] : undefined
           if (column.render) {
             // render 优先级高于 dataIndex
