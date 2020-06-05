@@ -1,0 +1,26 @@
+---
+name: Transform Table
+menu: Demos
+---
+
+import { Playground, Props } from 'docz'
+import { TransformTable } from './transform-table'
+
+# TransformTable
+
+
+<Playground>
+  <TransformTable />
+</Playground>
+
+``` javascript
+import transformTable from '../utils/transform-table';
+
+const { newColumns, newData } = transformTable(oldColumns, oldData);
+
+<Table
+  showHeader={false}
+  dataSource={newData}
+  columns={newColumns}
+/>
+```
