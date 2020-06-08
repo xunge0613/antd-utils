@@ -2,7 +2,7 @@
 import React, { FC, useState } from 'react'
 import Table, { ColumnProps } from 'antd/lib/table'
 import 'antd/dist/antd.css'
-import transformTable from '../utils/transform-table';
+import { transformTable } from 'antd-utils'
 import Button from 'antd/lib/button';
 
 enum ETableType {
