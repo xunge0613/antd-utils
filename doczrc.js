@@ -1,5 +1,5 @@
 export default {
   typescript: true,
-  base: '/demo/', // 打包 demo 地址
-  dest: '/demo/'
+  base: '/antd-utils/demo/', // 项目访问路径 
+  dest: '/antd-utils/demo/', // 项目打包路径
 }
