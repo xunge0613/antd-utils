@@ -1,8 +1,8 @@
 # Typescript Docz example
 
 ## Demo
-https://xunge0613.github.io/antd-utils/demo/ 
 
+[表格转置 demo](https://xunge0613.github.io/antd-utils/demo/src-demos-transform-table)
 
 ## Using `create-docz-app`
 
