@@ -14,5 +14,20 @@ import { PasteTags } from './paste-tags'
 </Playground>
 
 ``` javascript
- 
+// Try input 'a,b,c,1,2,3,a'
+
+export const PasteTags: FC = () => {
+  const [form] = useForm();
+  return (
+    <>
+      <Form form={form}>
+        <Form.Item name="name">
+          <Select
+            mode="tags"
+            onChange={(value: string[]) => pasteTags(value, form, "name")} />
+        </Form.Item>
+      </Form>
+    </>
+  )
+}
 ```

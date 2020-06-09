@@ -2,7 +2,13 @@
 
 ## Demo
 
-[表格转置 demo](https://xunge0613.github.io/antd-utils/demo/src-demos-transform-table)
+### Table
+
+[表格转置 | Transform Table](https://xunge0613.github.io/antd-utils/demo/src-demos-transform-table)
+
+### Select
+
+[复制tags | Paste Tags](https://xunge0613.github.io/antd-utils/demo/src-demos-paste-tags)
 
 ## Using `create-docz-app`
 
