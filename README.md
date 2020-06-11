@@ -9,6 +9,7 @@
 ### Select
 
 [复制tags | Paste Tags](https://xunge0613.github.io/antd-utils/demo/src-demos-paste-tags)
+[TS enum 转 Options | Enum2Options](https://xunge0613.github.io/antd-utils/demo/src-demos-enum2options)
 
 ## Using `create-docz-app`
 
