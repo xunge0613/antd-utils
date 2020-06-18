@@ -1,0 +1,34 @@
+---
+name: Get Query String
+menu: Demos
+---
+
+import { Playground, Props } from 'docz'
+import { GetQueryString } from './get-querystring.tsx'
+
+# Get Query String
+
+<Playground>
+  <GetQueryString />
+</Playground>
+
+``` javascript
+
+import React, { FC } from 'react'
+import 'antd/dist/antd.css'
+import { getQueryString } from 'antd-utils'
+import { Card } from 'antd'
+
+// try change the querystring ?name=yourtexthere, and reload the page
+
+const name = getQueryString('name')
+
+export const GetQueryString: FC = () => {
+
+  return (
+    <Card>
+      {`name: ${name}`}
+    </Card>
+  )
+}
+```
