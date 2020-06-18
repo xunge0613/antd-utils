@@ -8,9 +8,9 @@ import { Card } from 'antd'
 export const GetQueryString: FC = () => {
   const [name, setName] = useState<string | null>(null);
   useEffect(() => {
+    console.log(getQueryString('name'))
     setName(getQueryString('name'));
-  }, [])
-  
+  }, []);
   return (
     <Card>
       {`name: ${name}`}
