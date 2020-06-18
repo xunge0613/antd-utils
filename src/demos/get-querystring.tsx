@@ -1,4 +1,4 @@
-import React, { FC, useEffect } from 'react'
+import React, { FC, useEffect, useState } from 'react'
 import 'antd/dist/antd.css'
 import { getQueryString } from 'antd-utils'
 import { Card } from 'antd'
@@ -6,9 +6,9 @@ import { Card } from 'antd'
 // try change the querystring ?name=yourtexthere, and reload the page
 
 export const GetQueryString: FC = () => {
-  let name = null;
+  const [name, setName] = useState<string | null>(null);
   useEffect(() => {
-    name = getQueryString('name');
+    setName(getQueryString('name'));
   }, [])
   
   return (
