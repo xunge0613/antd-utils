@@ -8,7 +8,9 @@ import { Card } from 'antd'
 export const GetQueryString: FC = () => {
   const [name, setName] = useState<string | null>(null);
   useEffect(() => {
-    console.log(getQueryString('name'))
+    // console.log(getQueryString('name'))
+    // 必须放在 useEffect 里（componentDidMount）
+    // 否则 gatsby 的 React SSR 会报错
     setName(getQueryString('name'));
   }, []);
   return (

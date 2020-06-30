@@ -2515,10 +2515,10 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
     "@types/color-name" "^1.1.1"
     color-convert "^2.0.1"
 
-antd-utils@^0.1.9:
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/antd-utils/-/antd-utils-0.1.9.tgz#b65af8be1ec488e816106bc6ba13adc45cac8def"
-  integrity sha512-J+uyplfDbmZyTAilsaO/Q+UhDXIYdyuA7z+DbYTOqt6kQICX3j9sYoGLIZpUFWMEIivaIZHNmO5oFmeI9MB33Q==
+antd-utils@^0.1.11:
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/antd-utils/-/antd-utils-0.1.11.tgz#f4269ba9747b134a6e16963c1da0e1a82ee11c01"
+  integrity sha512-+QDlRuNLXG9DwnYQnRHVJR2OFBefDuEtoqkfItopi0NrQh8tPbzMK5z2+AgTh7nKf0ky2BigDVTjIWJDHKji+w==
   dependencies:
     tslib "^1.10.0"
 

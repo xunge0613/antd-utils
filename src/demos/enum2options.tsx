@@ -14,7 +14,7 @@ enum ESelectOptions {
   // 0 = a , // sorry it's invalid
 }
 
-const options = enum2Options(ESelectOptions)
+const options = enum2Options(ESelectOptions, "", "")
 
 export const Enum2Options: FC = () => {
 
