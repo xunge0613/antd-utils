@@ -14,7 +14,7 @@ enum ESelectOptions {
   // 0 = a , // sorry it's invalid
 }
 
-const options = enum2Options(ESelectOptions, "", "")
+const options = enum2Options(ESelectOptions, "label", "value")
 
 export const Enum2Options: FC = () => {
 
@@ -22,7 +22,7 @@ export const Enum2Options: FC = () => {
     <>
       <Form>
         <Form.Item name="name">
-          <Select>
+          <Select placeholder="请选择">
             {
               (options || []).map((item: any) => (
                 <Select.Option key={item.value} value={item.value}>{item.label}</Select.Option>

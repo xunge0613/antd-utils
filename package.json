@@ -17,7 +17,7 @@
     "@emotion/core": "^10.0.14",
     "@emotion/styled": "^10.0.14",
     "antd": "^4.3.1",
-    "antd-utils": "^0.1.11",
+    "antd-utils": "^0.1.14",
     "docz": "latest",
     "gatsby": "2.22.15",
     "react": "^16.8.6",

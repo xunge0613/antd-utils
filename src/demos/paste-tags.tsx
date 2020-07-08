@@ -15,6 +15,7 @@ export const PasteTags: FC = () => {
       <Form form={form}>
         <Form.Item name="name">
           <Select
+            placeholder="试试复制或输入 'a,b,c,1,2,3,a'"
             mode="tags"
             onChange={(value: string[]) => pasteTags(value, form, "name")} />
         </Form.Item>
